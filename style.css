@@ -74,7 +74,7 @@ p{
 }
 
 .streetwearEdition p{
-  padding: 0px 10vmin 1vmin 90vmin;
+  padding: 0px 10vmin 1vmin 85vmin;
 }
 
 .streetwearToday{
@@ -107,7 +107,7 @@ p{
   line-height: 6vmin;
 }
 .streetwearToday p{
-  padding: 3vmin 30vmin 0px 8.5vmin;
+  padding: 3vmin 25vmin 0px 8.5vmin;
 }
 
 .logoMania{
@@ -122,7 +122,7 @@ p{
 }
 
 .logoMania p{
-  padding: 20vmin 8vmin 0px 96vmin;
+  padding: 20vmin 8vmin 0px 90vmin;
 }
 
 .sneakerCulture{
@@ -147,9 +147,8 @@ p{
 
 }
 .sneakerCulture p{
-  padding: 4vmin 7vmin 1vmin 87vmin;
+  padding: 3.3vmin 7vmin 1vmin 81vmin;
   font-size: 2.4vmin;
-  line-height: 3.5vmin;
 }
 
 .conclusion{
@@ -173,7 +172,7 @@ p{
 }
 
 .conclusion p{
-  padding: 0px 90vmin 0px 10vmin;
+  padding: 0px 85vmin 0px 10vmin;
 }
 
 .blackOwned{
