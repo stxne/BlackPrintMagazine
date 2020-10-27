@@ -146,6 +146,7 @@ p{
   padding: 0px 5vmin 0px 45vmin;
 
 }
+
 .sneakerCulture p{
   padding: 3.3vmin 7vmin 1vmin 81vmin;
   font-size: 2.4vmin;
@@ -206,4 +207,9 @@ a{
   padding: 7vmin 10vmin 5vmin 10vmin;
   background-color: WHITE;
 
+}
+
+.insetSection {
+  -webkit-box-shadow: inset 0px 9px 20px -5px #000000;
+  box-shadow: inset 0px 9px 20px -5px #000000;
 }
