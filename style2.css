@@ -26,7 +26,6 @@ body, html{
    color: white;
    text-align: center;
    line-height: 1vmin;
-   padding: 1vmin;
 
  }
 
@@ -213,4 +212,165 @@ a{
 .insetSection {
   -webkit-box-shadow: inset 0px 9px 20px -5px #000000;
   box-shadow: inset 0px 9px 20px -5px #000000;
+}
+
+@media screen and (max-width: 900px){
+  p{
+    font-family: Amiri;
+    font-size: 4vmin;
+    text-align: justify;
+    line-height: 5.5vmin;
+  }
+
+  .landingPage{
+    background-image: url('Mask Group 18.png');
+    background-attachment: inherit;
+    height: 185vmin;
+  }
+  .coverText{
+    color: white;
+    text-align: center;
+    line-height: 1vmin;
+  }
+
+  .coverText h1{
+    font-size: 10vmin;
+  }
+
+
+  .streetwearEdition{
+    background-image: none;
+    height: 150vmin;
+    background-color: #E9BEDC;
+  }
+
+  .streetwearEdition h1{
+    -webkit-text-fill-color: black ;
+    -webkit-text-stroke: 0px;
+  }
+
+  .streetwearEdition p{
+    padding: 0px 5vmin 0px 5vmin;
+  }
+
+  .streetwearToday{
+    background-image: url('streetwearToday small.png');
+    background-size: 100%;
+    background-position: top;
+    background-attachment: inherit;
+    height: 170vmin;
+    flex-direction: column;
+    background-color:#F1C227;
+  }
+  .streetwearToday h1{
+    -webkit-text-fill-color: black ;
+    -webkit-text-stroke: 0px;
+    padding:0vmin 0px 58vmin 3vmin;
+
+  }
+  .streetwearToday p{
+    padding: 0px 5vmin 10px 5vmin;
+
+  }
+
+  .streetwearToday h3{
+    font-family: sans-serif;
+    font-size: 4.5vmin;
+    color: black;
+    padding: 0px 5vmin 0px 5vmin;
+  }
+  .logoMania{
+    background-image: url('logomania asmall.png');
+    background-size: 100%;
+    background-position: top;
+    background-attachment: inherit;
+    height: 210vmin;
+    display: flex;
+    align-items: flex-end;
+
+
+  }
+  .logoMania p{
+    padding: 10vmin 10vmin 10vmin 10vmin;
+    background-color: #9D241C;
+    margin: 0px;
+  }
+
+  .sneakerCulture{
+    background-image: url("Air Jordan 1 High OG.png");
+    height: 225vmin;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position:top;
+  }
+
+  .sneakerCulture h1{
+    -webkit-text-fill-color: black ;
+    -webkit-text-stroke: 0px;
+  }
+
+  .shoesImage{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .sneakerCulture p{
+    padding: 0;
+    font-size: 4vmin;
+    background-color: WHITE;
+    padding: 10vmin 10vmin 10vmin 10vmin;
+    margin: 0;
+  }
+  img{
+    width: 30%;
+    padding-bottom: 5vmin;
+  }
+  .conclusion{
+    background-image: none;
+    background-color: #7E8F31;
+    padding-bottom: 5vmin;
+    height: 145vmin;
+
+  }
+
+  .conclusion h1{
+    -webkit-text-fill-color: black ;
+    -webkit-text-stroke: 0px;
+    font-size: 7.5vmin;
+    padding:3vmin 0px 0px 10vmin;
+  }
+
+  .conclusion p{
+    padding: 0vmin 10vmin 10vmin 10vmin;
+  }
+
+
+  a{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 3.5vmin;
+  }
+
+  .brandNames{
+    height: 250vmin;
+  }
+
+
+  .blackOwned h1{
+    -webkit-text-fill-color: white ;
+    -webkit-text-stroke: 0px;
+  }
+
+  .coverText h1{
+    color: white;
+    -webkit-text-stroke: 0px;
+  }
+
+  h3,h6{
+     font-family: sans-serif;
+
+  }
+
 }
